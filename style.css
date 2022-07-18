@@ -1,0 +1,39 @@
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: rgb(206, 199, 199);
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(40, 176, 176)
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly
+}
+button{
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.7s;
+}
+button:hover{
+    transform: scale(1.2);
+}
+button.rock{
+    background-image:url(images/rock.jpg) ;
+    background-size: cover;
+}
+button.paper{
+    background-image:url(images/paper.jpg) ;
+    background-size: cover;
+}
+button.scissors{
+    background-image:url(images/scissors.jpg) ;
+    background-size: cover;
+}
+
